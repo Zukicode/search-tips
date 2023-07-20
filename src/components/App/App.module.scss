@@ -1,0 +1,22 @@
+.application {
+	width: 600px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+
+	@media (max-width: 650px) {
+		width: 500px;
+	}
+
+	@media (max-width: 550px) {
+		width: 400px;
+	}
+
+	@media (max-width: 450px) {
+		width: 350px;
+	}
+
+	@media (max-width: 350px) {
+		width: 270px;
+	}
+}

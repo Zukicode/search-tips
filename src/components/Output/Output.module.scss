@@ -1,0 +1,14 @@
+.output {
+	width: 100%;
+	padding: 20px 0px;
+	border-radius: 0px 0px 20px 20px;
+	background: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	.title {
+		color: #2d2d2d;
+	}
+}
